@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Test\\Poker.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\Poker.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\Poker.Library.csproj",
+        "projectName": "Poker.Library",
+        "projectPath": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\Poker.Library.csproj",
+        "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://build.tradepmr.com/nugetserver/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Test\\Poker.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Test\\Poker.Test.csproj",
+        "projectName": "Poker.Test",
+        "projectPath": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Test\\Poker.Test.csproj",
+        "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://build.tradepmr.com/nugetserver/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\Poker.Library.csproj": {
+                "projectPath": "C:\\Users\\jp\\Documents\\KB\\Functional Programming\\projects\\PokerRank2\\Poker.Library\\Poker.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview4.19164.7, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
