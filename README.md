@@ -11,7 +11,7 @@
 
 ### Card Suits
 - ![Spades](./images/spades.png| width=48) Spades
-![Hearts](./images/Hearts.png | width=48) Hearts
+- ![Hearts](./images/Hearts.png | width=48) Hearts
 - ![Diamonds](./images/Diamonds.png| width=48) Diamonds
 - ![Clubs](./images/Clubs.png| width=48) Clubs
 
@@ -31,7 +31,7 @@
 - C# Extension
 ![C# Extensions ](./images/csharp-ext.png)
 
-## 1 Create unit test
+## 1. Create unit test
 
 Create CardTest.cs file in Poker.Test
 ```
@@ -99,7 +99,7 @@ public class Card
 When this test passes, move on to the next exercise.
 
 
-## 2.Create a Hand
+## 2. Create a Hand
 Add HandTest.cs file to Poker.Test project
 
 ```
@@ -290,8 +290,12 @@ public void CanScoreStraight()
     Assert.Equal(HandRank.Straight, hand.GetHandRank());
 }
 ```
-## 11.Straight answer
-## 12.Refactor
+## 11. Straight answer
+## 12. Refactor
 ## 13. Next steps add test for:
 - Straight flush
 - Two pairs
+
+
+
+
